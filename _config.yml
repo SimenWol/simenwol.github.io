@@ -15,6 +15,11 @@ social:
 name: Simen Wolters
 profession: Game Programmer
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
