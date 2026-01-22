@@ -1,0 +1,73 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* SOCIAL LIST: make sure it sits BELOW previous content */
+.social-links {
+  clear: both;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.social-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem 4rem;
+}
+
+@media (max-width: 520px) {
+  .social-links ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 360px) {
+  .social-links ul {
+    grid-template-columns: 1fr;
+  }
+}
+
+.social-links li {
+  margin: 0;
+}
+
+.social-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: color 0.2s;
+}
+
+.social-links li a:hover {
+  color: #007acc;
+}
+
+.social-links i {
+  font-size: 1.2rem;
+}
+
+/* OTHER */
+.back-button {
+  display: inline-block;
+  margin: 1rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.rounded-logo {
+  border-radius: 10%;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 16px;
+}

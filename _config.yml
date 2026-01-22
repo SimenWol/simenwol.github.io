@@ -1,3 +1,20 @@
 title: Portfolio of Simen Wolters
 
+logo: /assets/images/profile.jpg
+
+baseurl: ""
+url: ""
+
+social:
+  github: "https://github.com/SimenWol"
+  linkedin: "https://www.linkedin.com/in/simenwolters/"
+  itchio: "https://simenwolters.itch.io/"
+  gmail: "simenwol@gmail.com"
+  #resume: ""
+
+name: Simen Wolters
+profession: Game Programmer
+
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed

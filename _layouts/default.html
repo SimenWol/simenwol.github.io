@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+    <head>
+        <meta charset="UTF-9">
+        <meta http-equiv="X_UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+        {% seo %}
+        <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+        {% include head-custom.html %}
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                {% if site.logo %}
+                <img src="{{ site.logo | relative_url }}" alt="Logo" class="rounded-logo" />
+                {% endif %}
+
+                <h1><a href="{{ "/" | absolute_url }}">{{ site.name | default: site.github.repository_name }}</a></h1>
+                <h2>{{ site.profession }}</h2>
+
+                <a href="mailto:{{ site.social.gmail }}" target="_blank"><i class="fa-solid fa-envelope"></i> {{site.social.gmail}} </a>
+
+                <p>🎓 3rd year game programming student at Breda University of Applied Sciences in Creative Media and Game Technologies.</p>
+                <!--<p>💼 Job.</p>-->
+
+                {% if site.social %}
+                <div class="social-links">
+                    <ul>
+                        {% if site.social.resume %}
+                        <li><a href="{{ site.social.resume }}" target="_blank"><i class="fa-solid fa-file-arrow-down"></i>Resume</a></li>
+                        {% endif %}
+                        {% if site.social.linkedin %}
+                        <li><a href="{{ site.social.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+                        {% endif %}
+                        {% if site.social.github %}
+                        <li><a href="{{ site.social.github }}" target="_blank"><i class="fab fa-github"></i>GitHub</a></li>
+                        {% endif %}
+                        {% if site.social.itchio %}
+                        <li><a href="{{ site.social.itchio }}" target="_blank"><i class="fa-solid fa-gamepad"></i>itch.io</a></li>
+                        {% endif %}
+                    </ul>
+                </div>
+                {% endif %}
+            </header>
+            <section>
+                {{ content }}
+            </section>
+            <footer>
+                <!-- empty -->
+            </footer>
+        </div>
+        <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    </body>
+</html>
