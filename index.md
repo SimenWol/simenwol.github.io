@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# About self
+# About Me
 This portfolio is a WIP, please come back later!
 
 # Skills
