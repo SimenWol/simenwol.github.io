@@ -27,6 +27,15 @@ This portfolio is a WIP, please come back later!
 
         <p><strong>Date:</strong> {{ project.date | date: "%B %-d, %Y" }}</p>
 
+        {% if project.tools %}
+          <div class="project-tags">
+          <!-- <p><strong>Engine/Tools:</strong></p> -->
+            {% for tool in project.tools %}
+              <span class="project-tag">{{ tool }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+
         {% if project.description %}
           <p>{{ project.description }}</p>
         {% endif %}
@@ -37,20 +46,21 @@ This portfolio is a WIP, please come back later!
           <p><strong>My Contributions:</strong> {{ project.contributions }}</p>
         {% endif %}
 
-        {% if project.tools %}
-          <p><strong>Engine/Tools:</strong> {{ project.tools }}</p>
-        {% endif %}
-
         {% if project.team_size %}
           <p><strong>Team Size:</strong> {{ project.team_size }}</p>
         {% endif %}
 
-        {% if project.platforms %}
-          <p><strong>Platforms:</strong> {{ project.platforms }}</p>
-        {% endif %}
-
         {% if project.duration %}
           <p><strong>Duration:</strong> {{ project.duration }}</p>
+        {% endif %}
+
+        {% if project.platforms %}
+          <div class="project-tags">
+          <p><strong>Platforms:</strong></p>
+            {% for platform in project.platforms %}
+              <span class="project-tag">{{ platform }}</span>
+            {% endfor %}
+          </div>
         {% endif %}
 
       </div>

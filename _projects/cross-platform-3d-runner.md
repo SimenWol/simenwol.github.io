@@ -6,9 +6,15 @@ categories: [projects]
 image: /assets/images/Y1B/main.gif
 description: "A 3D endless runner using Bullet Physics and OpenGLES on a Raspberry Pi4B."
 contributions: "3D Rendering & Shaders (OpenGLES) | Raspberry Pi Cross-Platform Development | Physics System using Bullet "
-tools: "C++ | OpenGLES | Bullet Physics | ImGui"
+tools:
+  - "C++"
+  - "OpenGLES"
+  - "Bullet Physics"
+  - "ImGui"
 team_size: "Solo"
-platforms: "Windows | Linux"
+platforms:
+  - "Windows"
+  - "Linux"
 duration: "8 weeks (Nov 2023 - Jan 2024)"
 ---
 
