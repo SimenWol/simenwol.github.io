@@ -5,8 +5,10 @@ layout: default
 # About Me
 This portfolio is a WIP, please come back later!
 
-# Skills
-- TBA
+*I’m a generalist game programmer with experience in gameplay, engine, and tools development, currently seeking internship opportunities starting Summer 2026.*
+
+<!-- # Skills
+- TBA -->
 
 # Projects
 
