@@ -3,12 +3,16 @@ layout: default
 ---
 
 # About Me
-This portfolio is a WIP, please come back later!
+Hi! I'm Simen Wolters, a game programming student at Breda University of Applied Sciences. I'm a generalist game programmer with hands-on experience in gameplay, engine, and tools development.
 
-*I’m a generalist game programmer with experience in gameplay, engine, and tools development, currently seeking internship opportunities starting Summer 2026.*
+I'm proficient in C++ and have experience with Unreal Engine, as well as building custom engines. I enjoy solving technical challenges and collaborating with developers from all disciplines to create polished and engaging experiences.
+
+Outside of programming, I enjoy playing games, exploring music and films, spending time outdoors, and working on small creative side projects. I'm naturally curious and like learning new skills, both technical and non-technical.
+
+*Currently seeking a game programming internship starting Summer 2026.*
 
 <!-- # Skills
-- TBA -->
+- TBA custom overview/list with e.g. C++, visual studio, perforce, github, unreal, etc. -->
 
 # Projects
 
