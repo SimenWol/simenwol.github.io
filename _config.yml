@@ -10,7 +10,7 @@ social:
   linkedin: "https://www.linkedin.com/in/simenwolters/"
   itchio: "https://simenwolters.itch.io/"
   gmail: "simenwol@gmail.com"
-  #resume: ""
+  resume: /assets/Resume_Simen_Wolters.pdf
 
 name: Simen Wolters
 profession: Game Programmer
