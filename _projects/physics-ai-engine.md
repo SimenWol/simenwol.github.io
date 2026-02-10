@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Custom C++ Engine: Physics & AI Modules"
+title: "Custom Engine: Physics & AI Modules"
 date: 2024-11-01
 categories: [projects]
 image: /assets/images/Y2A/main.gif

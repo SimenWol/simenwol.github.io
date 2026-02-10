@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Mantis Engine: Custom C++ OpenXR Game Engine"
+title: "Mantis Engine: Custom OpenXR Game Engine"
 date: 2025-04-11
 categories: [projects]
 image: /assets/images/Y2C/main.gif

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Ascension Protocol: A VR Experience Made With A Custom C++ Engine"
+title: "Ascension Protocol: A VR Experience Made With Mantis Engine"
 date: 2025-06-27
 categories: [projects]
 image: /assets/images/Y2D/main.png

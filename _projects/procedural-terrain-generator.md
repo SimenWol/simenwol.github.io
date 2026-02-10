@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Custom C++ Procedural Terrain Generator"
+title: "Custom Procedural Terrain Generator"
 date: 2025-01-24
 categories: [projects]
 image: /assets/images/Y2B/main.png

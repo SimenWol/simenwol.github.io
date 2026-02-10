@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Custom CPU-based Raytracing Engine (C++)"
+title: "Custom CPU-based Raytracing Engine"
 date: 2024-04-12
 categories: [projects]
 image: /assets/images/Y1C/main.gif
