@@ -17,10 +17,20 @@ layout: default
         <h1>{{ page.title }}</h1>
         <p class="project-date">{{ page.date | date: "%B %-d, %Y" }}</p>
 
-        {% if page.tools %}
+        {% if page.tags %}
           <div class="project-tags">
-            {% for tool in page.tools %}
-              <span class="project-tag">{{ tool }}</span>
+            {% for tag in page.tags %}
+              {% assign tag_up = tag | upcase %}
+
+              <span class="project-tag
+                {% if tag_up contains 'ENGINE' %} tag-engine
+                {% elsif tag_up contains 'PROJECT' %} tag-project
+                {% else %} tag-default
+                {% endif %}
+              ">
+                <strong>{{ tag }}</strong>
+              </span>
+
             {% endfor %}
           </div>
         {% endif %}
