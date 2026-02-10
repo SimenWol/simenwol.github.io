@@ -11,7 +11,7 @@ Outside of programming, I enjoy playing games, exploring music and films, spendi
 
 ***Currently seeking a game programming internship starting Summer 2026.***
 
-# Skills
+# Skills & Tools
 <div class="skills-bar">
   <div class="skill-icon">
     <img src="assets/images/icons/cpp.svg" alt="C++" />
