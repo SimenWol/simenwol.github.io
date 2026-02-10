@@ -188,12 +188,12 @@
   line-height: 1.5;
 }
 
-.project-tags p {
-  margin: 0;
-}
-
 .project-content {
   margin-top: 1.5rem;
+}
+
+.project-tags p {
+  margin: 0;
 }
 
 .project-tags {
@@ -213,6 +213,26 @@
   white-space: nowrap;
 }
 
+/* Default = blue-ish */
+.tag-default {
+  background-color: #e8f1ff;
+  color: #1f3a5f;
+  border-color: #c7dcff;
+}
+
+/* Engine = green-ish */
+.tag-engine {
+  background-color: #e7f6ec;
+  color: #1e6b3a;
+  border-color: #bfe6cc;
+}
+
+/* Project = orange-ish */
+.tag-project {
+  background-color: #fff1e6;
+  color: #9a4d00;
+  border-color: #ffd3b3;
+}
 
 /* OTHER */
 .back-button {

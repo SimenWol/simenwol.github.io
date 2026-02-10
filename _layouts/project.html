@@ -19,7 +19,6 @@ layout: default
 
         {% if page.tools %}
           <div class="project-tags">
-          <!-- <p><strong>Engine/Tools:</strong></p> -->
             {% for tool in page.tools %}
               <span class="project-tag">{{ tool }}</span>
             {% endfor %}
@@ -32,6 +31,10 @@ layout: default
         
         {% if page.contributions %}
           <p><strong>My Contributions:</strong> {{ page.contributions }}</p>
+        {% endif %}
+
+        {% if page.tools %}
+          <p><strong>Engine/Tools:</strong> {{ page.tools }}</p>
         {% endif %}
         
         {% if page.team_size %}

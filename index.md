@@ -3,7 +3,7 @@ layout: default
 ---
 
 # About Me
-Hi! I'm Simen Wolters, a game programming student at Breda University of Applied Sciences. I'm a generalist game programmer with hands-on experience in gameplay, engine, and tools development.
+Hi! I'm Simen Wolters, a game programming student at Breda University of Applied Sciences. I'm a generalist game programmer with hands-on experience in gameplay, engine, tools, and graphics development.
 
 I'm proficient in C++ and have experience with Unreal Engine, as well as building custom engines. I enjoy solving technical challenges and collaborating with developers from all disciplines to create polished and engaging experiences.
 
@@ -11,8 +11,8 @@ Outside of programming, I enjoy playing games, exploring music and films, spendi
 
 *Currently seeking a game programming internship starting Summer 2026.*
 
-<!-- # Skills
-- TBA custom overview/list with e.g. C++, visual studio, perforce, github, unreal, etc. -->
+# Skills
+- TBA custom overview/list with e.g. C++, visual studio, perforce, github, unreal, etc.
 
 # Projects
 
@@ -33,11 +33,20 @@ Outside of programming, I enjoy playing games, exploring music and films, spendi
 
         <p><strong>Date:</strong> {{ project.date | date: "%B %-d, %Y" }}</p>
 
-        {% if project.tools %}
+        {% if project.tags %}
           <div class="project-tags">
-          <!-- <p><strong>Engine/Tools:</strong></p> -->
-            {% for tool in project.tools %}
-              <span class="project-tag">{{ tool }}</span>
+            {% for tag in project.tags %}
+              {% assign tag_up = tag | upcase %}
+
+              <span class="project-tag
+                {% if tag_up contains 'ENGINE' %} tag-engine
+                {% elsif tag_up contains 'PROJECT' %} tag-project
+                {% else %} tag-default
+                {% endif %}
+              ">
+                <strong>{{ tag }}</strong>
+              </span>
+
             {% endfor %}
           </div>
         {% endif %}
@@ -50,6 +59,10 @@ Outside of programming, I enjoy playing games, exploring music and films, spendi
 
         {% if project.contributions %}
           <p><strong>My Contributions:</strong> {{ project.contributions }}</p>
+        {% endif %}
+
+        {% if project.tools %}
+          <p><strong>Engine/Tools:</strong> {{ project.tools }}</p>
         {% endif %}
 
         {% if project.team_size %}

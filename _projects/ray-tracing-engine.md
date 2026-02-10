@@ -6,9 +6,11 @@ categories: [projects]
 image: /assets/images/Y1C/main.gif
 description: "A custom C++ CPU-based raytracing engine which was used to create a simple puzzle demo. Use a laser and your environment to hit the target."
 contributions: "Raytracing Algorithm | Point-, Spot-, Area-, and Directional Lights | Shadows | Recursive (Whitted) Raytracing | Reflections | Dielectrics | Beer's Law | Accumulator | Basic Denoising | Anti-Aliasing | Depth of Field | Reprojection | Ray-Traced Portals"
-tools:
+tools: "ImGui"
+tags:
   - "C++"
-  - "ImGui"
+  - "CUSTOM ENGINE"
+  - "SOLO PROJECT"
 team_size: "Solo"
 platforms:
   - "Windows"
