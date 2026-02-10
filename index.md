@@ -9,7 +9,7 @@ I'm proficient in C++ and have experience with Unreal Engine, as well as buildin
 
 Outside of programming, I enjoy playing games, exploring music and films, spending time outdoors, and working on small creative side projects. I'm naturally curious and like learning new skills, both technical and non-technical.
 
-*Currently seeking a game programming internship starting Summer 2026.*
+***Currently seeking a game programming internship starting Summer 2026.***
 
 # Skills
 <div class="skills-bar">
