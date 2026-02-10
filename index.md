@@ -12,7 +12,54 @@ Outside of programming, I enjoy playing games, exploring music and films, spendi
 *Currently seeking a game programming internship starting Summer 2026.*
 
 # Skills
-- TBA custom overview/list with e.g. C++, visual studio, perforce, github, unreal, etc.
+<div class="skills-bar">
+  <div class="skill-icon">
+    <img src="assets/images/icons/cpp.svg" alt="C++" />
+    <div class="tooltip">
+      C++<br>
+      3+ years of experience in C++.
+    </div>
+  </div>
+
+  <div class="skill-icon">
+    <img src="assets/images/icons/vs.png" alt="Visual Studio" />
+    <div class="tooltip">
+      Visual Studio<br>
+      3+ years of experience. Familiar with debugging, profiling, and project configuration tools.
+    </div>
+  </div>
+
+  <div class="skill-icon">
+    <img src="assets/images/icons/vscode.png" alt="Visual Studio Code" />
+    <div class="tooltip">
+      Visual Studio Code<br>
+    </div>
+  </div>
+
+  <div class="skill-icon">
+    <img src="assets/images/icons/github.svg" alt="Github" />
+    <div class="tooltip">
+      Github<br> 
+      5+ years of experience using source control in personal and team environments. Familiar with GitHub Projects, review process, managing branches, and GitHub Actions for CI/CD.
+    </div>
+  </div>
+
+  <div class="skill-icon">
+    <img src="assets/images/icons/perforce.png" alt="Perforce" />
+    <div class="tooltip">
+      Perforce<br> 
+      2+ years of experience with Perforce and P4V in personal and team environments, including active participation in code reviews through swarm.
+    </div>
+  </div>
+
+  <div class="skill-icon">
+    <img src="assets/images/icons/unreal.svg" alt="Unreal Engine" />
+    <div class="tooltip">
+      Unreal Engine<br>
+      Familiar working with Unreal Engine's Blueprints and in C++ in personal and team environments.
+    </div>
+  </div>
+</div>
 
 # Projects
 
