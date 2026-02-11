@@ -3,6 +3,7 @@ layout: project
 title: "S.U.C.C. - Programming Lead | Unreal Engine (In Production)"
 # date: 2026-06-12
 categories: [projects]
+featured: true
 image: /assets/images/Y3G/main.png
 description: "Programming Lead for a 25+ member university team currently in production, developing an Unreal Engine title planned for release on Steam. Responsible for coordinating a team of 7 programmers and guiding gameplay systems development."
 contributions: "Team Leadership | Gameplay Systems | Code Reviews | Unreal C++ & Blueprints"
