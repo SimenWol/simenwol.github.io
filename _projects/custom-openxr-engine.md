@@ -13,6 +13,8 @@ tags:
   - "CUSTOM ENGINE"
   - "OPENXR"
   - "GROUP PROJECT"
+  - "UNIVERSITY"
+  - "FEB. - JUN. 2025"
 team_size: "Engine Core: 5 Programmers | Production: 8 Programmers, 2 Designers"
 platforms:
   - "Windows"

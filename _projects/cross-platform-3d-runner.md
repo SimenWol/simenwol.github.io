@@ -11,6 +11,8 @@ tags:
   - "C++"
   - "LINUX"
   - "SOLO PROJECT"
+  - "UNIVERSITY"
+  - "NOV. 2023 - JAN. 2024"
 team_size: "Solo"
 platforms:
   - "Windows"

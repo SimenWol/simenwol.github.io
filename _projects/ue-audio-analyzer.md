@@ -11,6 +11,8 @@ tags:
   - "C++"
   - "UNREAL ENGINE"
   - "SOLO PROJECT"
+  - "UNIVERSITY"
+  - "SEP. - OCT. 2025"
 team_size: "Solo"
 platforms:
   - "Windows"

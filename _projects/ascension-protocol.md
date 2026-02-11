@@ -8,10 +8,12 @@ description: "A VR experience pushing the boundaries of your spatial awareness b
 contributions: "Flying Enemies (3D AI Movement, Attack Logic) | Enemy Spawning System | Platform Ascension System | Core Gameplay | Further Engine Development"
 tools: "EnTT | FMOD | GLM"
 tags:
-  - C++
-  - CUSTOM ENGINE
-  - OPENXR
-  - GROUP PROJECT
+  - "C++"
+  - "CUSTOM ENGINE"
+  - "OPENXR"
+  - "GROUP PROJECT"
+  - "UNIVERSITY"
+  - "MAY. - JUN. 2025"
 team_size: "8 Programmers | 2 Designers"
 platforms:
   - "Windows"

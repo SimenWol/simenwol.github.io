@@ -9,10 +9,12 @@ description: "Programming Lead for a 25+ member university team currently in pro
 contributions: "Team Leadership | Gameplay Systems | Code Reviews | Unreal C++ & Blueprints"
 tools: "C++ & Blueprints with Unreal Engine"
 tags:
-  - IN DEVELOPMENT
-  - C++
-  - UNREAL ENGINE
-  - GROUP PROJECT
+  - "IN DEVELOPMENT"
+  - "C++"
+  - "UNREAL ENGINE"
+  - "GROUP PROJECT"
+  - "UNIVERSITY"
+  - "NOV. 2025 - JUN. 2026"
 team_size: "25+ (multi-disciplinary team)"
 platforms:
   - "Windows"

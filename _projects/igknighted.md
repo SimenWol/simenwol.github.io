@@ -11,6 +11,8 @@ tags:
   - "PYTHON"
   - "UNREAL ENGINE"
   - "GROUP PROJECT"
+  - "UNIVERSITY"
+  - "MAY. - JUN. 2024"
 team_size: "4 Programmers | 3 Designers | 5 Artists"
 platforms:
   - "Windows"

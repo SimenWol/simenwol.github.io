@@ -11,6 +11,8 @@ tags:
   - "C++"
   - "CUSTOM ENGINE"
   - "SOLO PROJECT"
+  - "UNIVERSITY"
+  - "NOV. 2024 - JAN. 2025"
 team_size: "Solo"
 platforms:
   - "Windows"

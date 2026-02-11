@@ -10,6 +10,8 @@ tools: "Tiled"
 tags:
   - "C++"
   - "SOLO PROJECT"
+  - "UNIVERSITY"
+  - "SEP. - NOV. 2023"
 team_size: "Solo"
 platforms:
   - "Windows"

@@ -88,6 +88,11 @@ Outside of programming, I enjoy playing games, exploring music and films, spendi
               <span class="project-tag
                 {% if tag_up contains 'ENGINE' %} tag-engine
                 {% elsif tag_up contains 'PROJECT' %} tag-project
+                {% elsif tag_up contains 'UNIVERSITY' %} tag-uni
+                {% elsif tag_up contains '2023' %} tag-time
+                {% elsif tag_up contains '2024' %} tag-time
+                {% elsif tag_up contains '2025' %} tag-time
+                {% elsif tag_up contains '2026' %} tag-time
                 {% else %} tag-default
                 {% endif %}
               ">
@@ -104,7 +109,7 @@ Outside of programming, I enjoy playing games, exploring music and films, spendi
         
         <p><a href="{{ project.url }}" class="read-more-link">Read more →</a></p>
 
-        {% if project.contributions %}
+        <!-- {% if project.contributions %}
           <p><strong>My Contributions:</strong> {{ project.contributions }}</p>
         {% endif %}
 
@@ -127,7 +132,7 @@ Outside of programming, I enjoy playing games, exploring music and films, spendi
               <span class="project-tag">{{ platform }}</span>
             {% endfor %}
           </div>
-        {% endif %}
+        {% endif %} -->
 
       </div>
     {% endif %}
@@ -161,6 +166,11 @@ Outside of programming, I enjoy playing games, exploring music and films, spendi
               <span class="project-tag
                 {% if tag_up contains 'ENGINE' %} tag-engine
                 {% elsif tag_up contains 'PROJECT' %} tag-project
+                {% elsif tag_up contains 'UNIVERSITY' %} tag-uni
+                {% elsif tag_up contains '2023' %} tag-time
+                {% elsif tag_up contains '2024' %} tag-time
+                {% elsif tag_up contains '2025' %} tag-time
+                {% elsif tag_up contains '2026' %} tag-time
                 {% else %} tag-default
                 {% endif %}
               ">
@@ -177,7 +187,7 @@ Outside of programming, I enjoy playing games, exploring music and films, spendi
         
         <p><a href="{{ project.url }}" class="read-more-link">Read more →</a></p>
 
-        {% if project.contributions %}
+        <!-- {% if project.contributions %}
           <p><strong>My Contributions:</strong> {{ project.contributions }}</p>
         {% endif %}
 
@@ -200,7 +210,7 @@ Outside of programming, I enjoy playing games, exploring music and films, spendi
               <span class="project-tag">{{ platform }}</span>
             {% endfor %}
           </div>
-        {% endif %}
+        {% endif %} -->
 
       </div>
     {% endif %}
