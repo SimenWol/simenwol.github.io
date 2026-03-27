@@ -1,7 +1,7 @@
 ---
 layout: project
-title: "S.U.C.C. - Programming Lead | Unreal Engine (In Production)"
-# date: 2026-06-12
+title: "Suck It Up! - Programming Lead | Upcoming Steam Release"
+date: 2026-05-18
 categories: [projects]
 featured: true
 image: /assets/images/Y3G/main.png
