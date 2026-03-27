@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Suck It Up! - Programming Lead | Upcoming Steam Release"
-date: 2026-05-18
+# date: 2026-05-18
 categories: [projects]
 featured: true
 image: /assets/images/Y3G/main.png
