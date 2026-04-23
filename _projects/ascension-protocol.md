@@ -3,7 +3,7 @@ layout: project
 title: "Ascension Protocol: A VR Experience Made With Mantis Engine"
 date: 2025-06-27
 categories: [projects]
-image: /assets/images/Y2D/main.png
+image: /assets/images/Y2D/main.gif
 description: "A VR experience pushing the boundaries of your spatial awareness by pitting you against swarms of enemies from all sides. Deflect, Dodge and Defend what is yours - if you fail, the very ground you stand upon will crumble as it leaves you with less and less. If you succeed, ascend a step further towards salvation."
 contributions: "Flying Enemies (3D AI Movement, Attack Logic) | Enemy Spawning System | Platform Ascension System | Core Gameplay | Further Engine Development"
 tools: "EnTT | FMOD | GLM"
