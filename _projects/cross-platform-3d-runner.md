@@ -2,7 +2,7 @@
 layout: project
 title: "3D Endless Runner: Cross-Platform Development on Raspberry Pi"
 date: 2024-01-26
-categories: [projects]
+categories: []
 image: /assets/images/Y1B/main.gif
 description: "A 3D endless runner using Bullet Physics and OpenGLES on a Raspberry Pi4B."
 contributions: "3D Rendering & Shaders (OpenGLES) | Raspberry Pi Cross-Platform Development | Physics System using Bullet "
