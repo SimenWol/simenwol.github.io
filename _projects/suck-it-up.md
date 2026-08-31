@@ -23,7 +23,7 @@ duration: "24 weeks (November 2025 - June 2026)"
 
 # Overview
 
-<iframe style="width:100%; max-width:800px; aspect-ratio:16/9;" src="https://www.youtube.com/watch?v=kXotraWf-Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="width:100%; max-width:800px; aspect-ratio:16/9;" src="https://www.youtube.com/embed/kXotraWf-Fw?si=n0sB25ahmnxbz4M2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br>
 _Suck It Up!_ is an action-adventure where players take the role of an exterminator tasked with clearing Cloud Town of its growing critter infestation. Armed with a vacuum-powered toolkit, players must capture pests and restore order to the city.
 
