@@ -33,8 +33,8 @@ _Suck It Up!_ is an action-adventure where players take the role of an extermina
 
 - **Programming Lead**: Led and coordinated the programming team while guiding technical decisions.
 - **Release & Marketing Management**: Coordinated development milestones and acted as liaison between the team and extenral marketing support.
+- **QA, Profiling & Performance Standards**: Established quality standards, performance targets and profiling practices to maintain stable frame rates and game quality.
 - **Gameplay Systems**: Implemented gameplay features including the pulley system and gameplay prototypes.
-- **Profiling & Performance Standards**: Established performance targets and profiling practices to maintain stable frame rates.
 
 Below I will go over some of these in more detail:
 
@@ -57,3 +57,61 @@ During the later stages of the project, I assisted with preparing for the game's
 Together with other leads and our producer, we established release milestones and defined which features each release would ship with. I then helped ensure that these deadlines were met by coordinating with the programming team and monitoring development progress.
 
 For marketing, our team collaborated with an external marketing student. I acted as the main point of contact between the development team and the marketing collaborator. While they led the creative side of marketing (such as social media posts, marketing materials, and copywriting), I was responsible for coordinating communication, ensuring marketing tasks were properly delegated within the team, and making sure deadliens for marketing assets were met.
+
+## QA, Profiling & Performance Standards
+
+During the later stages of the project, I took the role of 'QA manager' upon me.
+
+This meant I spent a lot of time prioritizing, validating, tracking, and fixing bugs in the project. As well as profiling the game to identify any bottlenecks and areas that could be improved.
+
+Early in the project, I helped establish quality standards, performance targets, and profiling practices to set a quality bar for the game.
+
+## Gameplay Systems
+
+While I had less time than usual for programming due to my lead work, I still worked on a few systems throughout the project.
+
+Early on in the project, I created some early gameplay prototypes and some small unreal engine C++ components to speed up development/prototyping:
+
+- An early version of the attachable component, where if an object had this component, it would get stuck to the vacuum's nozzle rather than get sucked up completely:
+
+<video style="width:100%; max-width:800px; aspect-ratio:16/9;" controls>
+  <source src="../assets/images/Y3G/AttachableComponent.mp4" type="video/mp4">
+</video>
+<br/>
+- A few helper C++ components, which sped up prototyping by moving some of the commonly used behaviour to a component that could simply be dragged onto the actor. Below two examples:
+
+The first being a C++ component that made it trivial to make an enemy, or part of it, look towards the player or any other specified actor.
+
+<video style="width:100%; max-width:800px; aspect-ratio:16/9;" controls>
+  <source src="../assets/images/Y3G/LookAtTargetComponent.mp4" type="video/mp4">
+</video>
+<br/>
+The second being a C++ component that made it easy for an actor to move towards the player or another specified actor, using whatever movement system/component the actor already has.
+
+<video style="width:100%; max-width:800px; aspect-ratio:16/9;" controls>
+
+  <source src="../assets/images/Y3G/MoveToTargetComponent.mp4" type="video/mp4">
+</video>
+<br/>
+
+- Later on in the project, I also worked on a pulley system, which was later scrapped due to a change in direction of the gameplay, with a heavier focus on combat rather than level traversal.
+
+The system was made fully in C++, and worked as followed:
+
+- You can place turning points, and a rope will automatically be generated between these points (as well as the endpoints when you add them).
+- The endpoints are detached from the system and can be swapped out, making it trivial to add new endpoints as the system was modular. At the time of the system being scrapped, there were currently two variants:
+  - Suckable endpoint - if you suck this part with your vacuum, it'll attach to the nozzle, and then you can walk back to pull, and certain things happen (based on how the pulley is configured).
+  - Platform endpoint - Platform can move if the player 'pulls' on the pulley via the suckable point on the other end of the pulley upon which the platform will move towards the next turning point, and can be locked after moving a certain distance.
+
+The first video shows how this system could be configured / placed down by a designer and an early version of how it worked in-game.
+
+<video style="width:100%; max-width:800px; aspect-ratio:16/9;" controls>
+  <source src="../assets/images/Y3G/PulleySystemWIP.mp4" type="video/mp4">
+</video>
+<br/>
+The second video shows what the system looked like at the moment it got discontinued, with the player movement affecting the platform's movement.
+
+<video style="width:100%; max-width:800px; aspect-ratio:16/9;" controls>
+  <source src="../assets/images/Y3G/PulleySystemWIP2.mp4" type="video/mp4">
+</video>
+<br/>
