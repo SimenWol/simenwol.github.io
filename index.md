@@ -3,15 +3,17 @@ layout: default
 ---
 
 # 👋 About Me
+
 Hi! I'm Simen Wolters, a game programming student at Breda University of Applied Sciences, specializing as a generalist programmer with experience in gameplay, engine, tools, and graphics development.
 
 I primarily work in C++ and have built both custom engines and Unreal Engine projects in solo and multidisciplinary teams, including leading a team of programmers on a large-scale production project. I enjoy designing scalable systems, solving technical challenges and collaborating closely with designers and artists to create polished gameplay experiences.
 
 Outside of programming, I enjoy playing games, exploring music and films, spending time outdoors, and working on small creative side projects. I'm naturally curious and like learning new skills, both technical and non-technical.
 
-***Currently seeking a game programming internship starting September 2026.***
+**_Currently seeking a game programming internship starting November 2026._**
 
 # 🛠️ Skills & Tools
+
 <div class="skills-bar">
   <div class="skill-icon">
     <img src="assets/images/icons/cpp.svg" alt="C++" />
@@ -106,7 +108,7 @@ Outside of programming, I enjoy playing games, exploring music and films, spendi
         {% if project.description %}
           <p>{{ project.description }}</p>
         {% endif %}
-        
+
         <p><a href="{{ project.url }}" class="read-more-link">Read more →</a></p>
 
         <!-- {% if project.contributions %}
@@ -136,7 +138,9 @@ Outside of programming, I enjoy playing games, exploring music and films, spendi
 
       </div>
     {% endif %}
-  {% endfor %}
+
+{% endfor %}
+
 </div>
 
 <br>
@@ -184,7 +188,7 @@ Outside of programming, I enjoy playing games, exploring music and films, spendi
         {% if project.description %}
           <p>{{ project.description }}</p>
         {% endif %}
-        
+
         <p><a href="{{ project.url }}" class="read-more-link">Read more →</a></p>
 
         <!-- {% if project.contributions %}
@@ -214,5 +218,7 @@ Outside of programming, I enjoy playing games, exploring music and films, spendi
 
       </div>
     {% endif %}
-  {% endfor %}
+
+{% endfor %}
+
 </div>
