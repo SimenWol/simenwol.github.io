@@ -18,6 +18,25 @@ platforms:
 duration: "8 weeks (Sep 2023 - Nov 2023)"
 ---
 
+# 👾 Pitfall (1982) Recreation
+
+_Pitfall Recreation_ was a project where the goal was to create a proof-of-concept 2D platformer game by recreating the game Pitfall _(1982)_ from scratch.
+
+<a href="https://github.com/SimenWol/Pitfall" target="_blank">Click here to find the code for this project.</a>
+
+---
+
+# My Contributions
+
+- 2D Physics & AABB Collision System
+- 2D Rendering, Sprite Animation & Parallax scrolling
+- Post-processing (OpenGL) CRT shader
+- CSV Map parser (Tiled)
+- Camera system, game state manager, controllable player character
+- Enemies, ladders/rope/pit, score/collectibles, UI/buttons, misc gameplay elements
+
+---
+
 <!-- ## Pitfall
 
 - AABB Collision System

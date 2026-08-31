@@ -20,3 +20,23 @@ platforms:
   - "Playstation 5"
 duration: "8 weeks (Sep 2024 - Nov 2024)"
 ---
+
+# 🤖 Custom Engine - Physics & AI Modules
+
+_Custom Engine - Physics & AI Modules_ was a solo project where the aim was to add core physics & AI engine functionality from scratch to a custom ECS-based C++ cross-platform engine. Including functionality for custom navigation meshes, AI agents, rigidbodies, and force based movement with collisions. At the end of the project a simple demo was created to show these features in-action.
+
+---
+
+# My Contributions
+
+- Graphs
+- (2D) Navigation Meshes
+- Map fileloader
+- A\*-Search Algorithm
+- 2D AI Navigation
+- Rigidbodies
+- Force Based Movement
+- Collision Detection + Resolution (DiskDisk, DiskPolygon)
+- Bullets & Simple Demo
+
+---

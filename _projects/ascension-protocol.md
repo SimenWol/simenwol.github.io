@@ -25,11 +25,16 @@ duration: "8 weeks (May 2025 - June 2025)"
 
 <iframe style="width:100%; max-width:800px; aspect-ratio:16/9;" src="https://www.youtube.com/embed/e4uZbqAVaqQ?si=bRJSdbFVEj57rQ1L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br>
-*Ascension Protocol* is a custom VR experience created in [Mantis Engine](https://simenwol.github.io/projects/custom-openxr-engine/), our custom C++ VR engine using OpenXR.
 
-<!-- The project focused on creating a smooth gameplay experience -->
-
+_Ascension Protocol_ is a custom VR experience created in [Mantis Engine](https://simenwol.github.io/projects/custom-openxr-engine/), our custom C++ VR engine using OpenXR.<br/>
 <a href="https://buas.itch.io/ascension-protocol" target="_blank">Click here to visit our game page!</a>
+
+---
+
+Additionally, there was an 8-week core-engine phase with a smaller programming-only team, where the aim was to build a production-ready game engine for Windows & OpenXR. During this period the core XR support of the engine was made.
+
+To read more about the core-engine phase, please check out the Mantis Engine article:<br/>
+<a href="https://simenwol.github.io/projects/ascension-protocol/" target="_blank">Click here to read about the core-engine phase of Mantis Engine.</a>
 
 ---
 

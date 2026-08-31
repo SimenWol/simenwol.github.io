@@ -20,13 +20,15 @@ platforms:
 duration: "24 weeks (November 2025 - June 2026)"
 ---
 
-# Overview
+# 🧹 Suck It Up! - A vacuum-powered Action-Adventure
 
 <iframe style="width:100%; max-width:800px; aspect-ratio:16/9;" src="https://www.youtube.com/embed/kXotraWf-Fw?si=n0sB25ahmnxbz4M2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br>
 _Suck It Up!_ is an action-adventure where players take the role of an exterminator tasked with clearing Cloud Town of its growing critter infestation. Armed with a vacuum-powered toolkit, players must capture pests and restore order to the city.
 
 <a href="https://store.steampowered.com/app/4515400/Suck_It_Up/" target="_blank">Click here to visit our game page!</a>
+
+---
 
 # My Contributions
 
@@ -36,6 +38,8 @@ _Suck It Up!_ is an action-adventure where players take the role of an extermina
 - **Gameplay Systems**: Implemented gameplay features including the pulley system and gameplay prototypes.
 
 Below I will go over some of these in more detail:
+
+---
 
 ## Programming Lead
 
@@ -49,6 +53,8 @@ Halfway through pre-production _(about 8 weeks into the project)_, I took over t
 - Communicated development progress and technical updates to external stakeholders.
 - Conducted code reviews to maintain code quality and provided technical direction on game systems, helping guide technical implementation decisions across the team.
 
+---
+
 ## Release & Marketing Management
 
 During the later stages of the project, I assisted with preparing for the game's release and marketing efforts.
@@ -57,6 +63,8 @@ Together with other leads and our producer, we established release milestones an
 
 For marketing, our team collaborated with an external marketing student. I acted as the main point of contact between the development team and the marketing collaborator. While they led the creative side of marketing (such as social media posts, marketing materials, and copywriting), I was responsible for coordinating communication, ensuring marketing tasks were properly delegated within the team, and making sure deadliens for marketing assets were met.
 
+---
+
 ## QA, Profiling & Performance Standards
 
 During the later stages of the project, I took the role of 'QA manager' upon me.
@@ -64,6 +72,8 @@ During the later stages of the project, I took the role of 'QA manager' upon me.
 This meant I spent a lot of time prioritizing, validating, tracking, and fixing bugs in the project. As well as profiling the game to identify any bottlenecks and areas that could be improved.
 
 Early in the project, I helped establish quality standards, performance targets, and profiling practices to set a quality bar for the game.
+
+---
 
 ## Gameplay Systems
 
