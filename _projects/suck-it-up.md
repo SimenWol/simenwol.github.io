@@ -74,24 +74,17 @@ Early on in the project, I created some early gameplay prototypes and some small
 
 - An early version of the attachable component, where if an object had this component, it would get stuck to the vacuum's nozzle rather than get sucked up completely:
 
-<video style="width:100%; max-width:800px; aspect-ratio:16/9;" controls>
-  <source src="../assets/images/Y3G/AttachableComponent.mp4" type="video/mp4">
-</video>
+<iframe style="width:100%; max-width:800px; aspect-ratio:16/9;" src="https://www.youtube.com/embed/NJsCBHIqznw?si=NuISC5tqFQHQ1Ak9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
 - A few helper C++ components, which sped up prototyping by moving some of the commonly used behaviour to a component that could simply be dragged onto the actor. Below two examples:
 
 The first being a C++ component that made it trivial to make an enemy, or part of it, look towards the player or any other specified actor.
 
-<video style="width:100%; max-width:800px; aspect-ratio:16/9;" controls>
-  <source src="../assets/images/Y3G/LookAtTargetComponent.mp4" type="video/mp4">
-</video>
+<iframe style="width:100%; max-width:800px; aspect-ratio:16/9;" src="https://www.youtube.com/embed/V11nzVwBb3I?si=pC95oI5UjNHcAvpH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
 The second being a C++ component that made it easy for an actor to move towards the player or another specified actor, using whatever movement system/component the actor already has.
 
-<video style="width:100%; max-width:800px; aspect-ratio:16/9;" controls>
-
-  <source src="../assets/images/Y3G/MoveToTargetComponent.mp4" type="video/mp4">
-</video>
+<iframe style="width:100%; max-width:800px; aspect-ratio:16/9;" src="https://www.youtube.com/embed/PeGDKzLQgVk?si=shnWwIGCN_Uz8NzC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
 
 - Later on in the project, I also worked on a pulley system, which was later scrapped due to a change in direction of the gameplay, with a heavier focus on combat rather than level traversal.
@@ -105,13 +98,9 @@ The system was made fully in C++, and worked as followed:
 
 The first video shows how this system could be configured / placed down by a designer and an early version of how it worked in-game.
 
-<video style="width:100%; max-width:800px; aspect-ratio:16/9;" controls>
-  <source src="../assets/images/Y3G/PulleySystemWIP.mp4" type="video/mp4">
-</video>
+<iframe style="width:100%; max-width:800px; aspect-ratio:16/9;" src="https://www.youtube.com/embed/bQ864kYG2NA?si=tCOXVCbmP0wHDve2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
 The second video shows what the system looked like at the moment it got discontinued, with the player movement affecting the platform's movement.
 
-<video style="width:100%; max-width:800px; aspect-ratio:16/9;" controls>
-  <source src="../assets/images/Y3G/PulleySystemWIP2.mp4" type="video/mp4">
-</video>
+<iframe style="width:100%; max-width:800px; aspect-ratio:16/9;" src="https://www.youtube.com/embed/BipKNGSsk78?si=BYNzIHIrZN5IZshd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
