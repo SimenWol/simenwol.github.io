@@ -18,5 +18,3 @@ platforms:
   - "Windows"
 duration: "8 weeks (Mar 2024 - Apr 2024)"
 ---
-
-## More information soon!

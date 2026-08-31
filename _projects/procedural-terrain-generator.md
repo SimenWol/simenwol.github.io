@@ -17,9 +17,10 @@ platforms:
   - "Windows"
 duration: "8 weeks (Nov 2024 - Jan 2025)"
 ---
+
 ## 🌍 Custom Procedural Terrain Generator - Runtime Infinite Terrain in a Custom C++ ECS Engine
 
-*Custom Procedural Terrain Generator* was a solo technical research project focused on building a fully procedural, infinitely scalable terrain system inside a custom ECS-based C++ engine. The goal was to explore the balance between mathematical generation techniques, real-time performance constraints, and artistic control in large-scale environments.
+_Custom Procedural Terrain Generator_ was a solo technical research project focused on building a fully procedural, infinitely scalable terrain system inside a custom ECS-based C++ engine. The goal was to explore the balance between mathematical generation techniques, real-time performance constraints, and artistic control in large-scale environments.
 
 The system generates heightmap-based terrain using multilayered noise, dynamic chunk streaming, biome blending, and shader-driven LOD through tessellation. Beyond technical implementation, the project focused heavily on system architecture, runtime efficiency, and exposing parameters for creative experimentation.
 
@@ -29,7 +30,8 @@ A technical blogpost documenting some research decisions, implementation challen
 <a href="https://medium.com/@simenwolters/creating-endless-worlds-with-procedural-terrain-generation-bc8568078266" target="_blank">Read the development blogpost.</a>
 
 ---
-<!-- 
+
+<!--
 ## Project Goals & Through Process
 Instead of starting from visuals, I approached the project from a systems perspective:
 - How do large worlds scale without exhausting memory?
@@ -71,6 +73,3 @@ My design philosophy became:
 ---
 
 ## Overall Impact -->
-
-
-## More information soon!

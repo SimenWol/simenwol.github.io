@@ -19,5 +19,3 @@ platforms:
   - "Linux"
 duration: "8 weeks (Nov 2023 - Jan 2024)"
 ---
-
-## More information soon!

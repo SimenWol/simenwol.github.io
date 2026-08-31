@@ -20,5 +20,3 @@ platforms:
   - "Playstation 5"
 duration: "8 weeks (Sep 2024 - Nov 2024)"
 ---
-
-## More information soon!

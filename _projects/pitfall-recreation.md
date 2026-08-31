@@ -18,8 +18,6 @@ platforms:
 duration: "8 weeks (Sep 2023 - Nov 2023)"
 ---
 
-## More information soon!
-
 <!-- ## Pitfall
 
 - AABB Collision System

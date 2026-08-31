@@ -17,5 +17,3 @@ platforms:
   - "Windows"
 duration: "8 weeks (Sep 2025 - Oct 2025)"
 ---
-
-## More information soon!

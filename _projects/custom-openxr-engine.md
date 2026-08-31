@@ -21,5 +21,3 @@ platforms:
   - "OpenXR"
 duration: "Engine Core: 8 weeks (Feb 2025 - Apr 2025) | Production: 8 weeks (May 2025 - June 2025)"
 ---
-
-## More information soon!

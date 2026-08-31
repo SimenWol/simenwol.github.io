@@ -18,6 +18,7 @@ platforms:
   - "Windows"
 duration: "8 weeks (May 2024 - Jun 2024)"
 ---
+
 ## 🔥 IgKnighted - A Stylized Local Multiplayer Arena Shooter
 
 <iframe style="width:100%; max-width:800px; aspect-ratio:16/9;" src="https://www.youtube.com/embed/cu6ulQ84qyc?si=daLoL3Ut5ng5s1H5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -26,11 +27,12 @@ duration: "8 weeks (May 2024 - Jun 2024)"
 
 The project focused on responsive combat systems, scalable difficulty balancing, and strong couch co-op readability, supported by in-engine animation logic and dynamic gameplay pacing systems.
 
-*IgKnighted* was awarded the "Best Overall Game Year 1", "Best Art Year 1" and "Best Design Year 1" awards at our industry showcase day at BUAS.
+_IgKnighted_ was awarded the "Best Overall Game Year 1", "Best Art Year 1" and "Best Design Year 1" awards at our industry showcase day at BUAS.
 
 <a href="https://buas.itch.io/igknighted" target="_blank">Click here to visit our game page!</a>
 
 ---
+
 ## My Contributions
 
 - Difficulty system
@@ -43,7 +45,6 @@ The project focused on responsive combat systems, scalable difficulty balancing,
 
 ---
 
-## More information soon!
 <!---
 ### AABB Collision System
 **Purpose:** lorum ipsum

@@ -32,6 +32,7 @@ duration: "8 weeks (May 2025 - June 2025)"
 <a href="https://buas.itch.io/ascension-protocol" target="_blank">Click here to visit our game page!</a>
 
 ---
+
 ## My Contributions
 
 - Flyer Enemy
@@ -45,5 +46,3 @@ duration: "8 weeks (May 2025 - June 2025)"
 - Helped develop the underlying custom engine [Mantis](https://simenwol.github.io/projects/custom-openxr-engine/).
 
 ---
-
-## More information soon!

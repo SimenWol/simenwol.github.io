@@ -1,11 +1,11 @@
 ---
 layout: project
-title: "Suck It Up! - Programming Lead | Upcoming Steam Release"
-# date: 2026-05-18
+title: "Suck It Up! - Programming Lead | Steam Release"
+date: 2026-06-29
 categories: [projects]
 featured: true
-image: /assets/images/Y3G/main.png
-description: "Programming Lead for a 25+ member university team currently in production, developing an Unreal Engine title planned for release on Steam in May 2026. Responsible for coordinating a team of 7 programmers and guiding the technical side of development."
+image: /assets/images/Y3G/main.gif
+description: "Programming Lead for a 25+ member university team, an Unreal Engine title released on Steam in June 2026. Responsible for coordinating a team of 7 programmers and guiding the technical side of development."
 contributions: "Team Leadership | Gameplay Systems | Code Reviews | Release & Marketing Management"
 tools: "C++ & Blueprints with Unreal Engine"
 tags:
@@ -20,13 +20,14 @@ platforms:
   - "Windows"
 duration: "24 weeks (November 2025 - June 2026)"
 ---
+
 # Overview
 
-*Suck It Up!* is an action-adventure where players take the role of an exterminator tasked with clearing Cloud Town of its growing critter infestation. Armed with a vacuum-powered toolkit, players must capture pests and restore order to the city.
+<iframe style="width:100%; max-width:800px; aspect-ratio:16/9;" src="https://www.youtube.com/watch?v=kXotraWf-Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br>
+_Suck It Up!_ is an action-adventure where players take the role of an exterminator tasked with clearing Cloud Town of its growing critter infestation. Armed with a vacuum-powered toolkit, players must capture pests and restore order to the city.
 
-<img src="/assets/images/Y3G/tmp-gameplay.gif" alt="Gameplay preview gif for Suck It Up!" />
-
-*This project is in active development, and is planned for release in late May 2026.*
+<a href="https://store.steampowered.com/app/4515400/Suck_It_Up/" target="_blank">Click here to visit our game page!</a>
 
 # My Contributions
 
@@ -39,7 +40,7 @@ Below I will go over some of these in more detail:
 
 ## Programming Lead
 
-Halfway through pre-production *(about 8 weeks into the project)*, I took over the role of programming lead. Since then, I've been guiding technical development and team coordination, which includes:
+Halfway through pre-production _(about 8 weeks into the project)_, I took over the role of programming lead. Since then, I've been guiding technical development and team coordination, which includes:
 
 - Led and coordinated a team of 7 programmers, organizing tasks, resolving blockers, and ensuring consistent progress across gameplay, systems, and tool development.
 - Defined and maintained coding standards and workflow practices to ensure consistent architecture and maintainable Unreal C++ code across the programming team.
@@ -56,5 +57,3 @@ During the later stages of the project, I assisted with preparing for the game's
 Together with other leads and our producer, we established release milestones and defined which features each release would ship with. I then helped ensure that these deadlines were met by coordinating with the programming team and monitoring development progress.
 
 For marketing, our team collaborated with an external marketing student. I acted as the main point of contact between the development team and the marketing collaborator. While they led the creative side of marketing (such as social media posts, marketing materials, and copywriting), I was responsible for coordinating communication, ensuring marketing tasks were properly delegated within the team, and making sure deadliens for marketing assets were met.
-
-## More Information Soon!
