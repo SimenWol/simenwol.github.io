@@ -9,7 +9,6 @@ description: "Programming Lead for a 25+ member university team, an Unreal Engin
 contributions: "Team Leadership | Gameplay Systems | Code Reviews | Release & Marketing Management"
 tools: "C++ & Blueprints with Unreal Engine"
 tags:
-  - "IN DEVELOPMENT"
   - "C++"
   - "UNREAL ENGINE"
   - "GROUP PROJECT"
