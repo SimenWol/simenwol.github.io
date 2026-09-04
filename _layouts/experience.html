@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+<p>
+    <a href="javascript:history.back()" class="back-button">← Back</a>
+</p>
+
+<div class="project-pill">
+    {% if page.image %}
+    <div class="post-image-wrapper">
+        <img src="{{ page.image }}" alt="Preview image for {{ page.title }}" class="post-image" />
+    </div>
+    {% endif %}
+
+    <div class="project-info">
+        <h1>{{ page.title }}</h1>
+        <p class="project-date">{{ page.date | date: "%B %-d, %Y" }}</p>
+
+        {% if page.tags %}
+          <div class="project-tags">
+            {% for tag in page.tags %}
+              {% assign tag_up = tag | upcase %}
+
+              <span class="project-tag
+                {% if tag_up contains 'ENGINE' %} tag-engine
+                {% elsif tag_up contains 'PROJECT' %} tag-project
+                {% else %} tag-default
+                {% endif %}
+              ">
+                <strong>{{ tag }}</strong>
+              </span>
+
+            {% endfor %}
+          </div>
+        {% endif %}
+        
+        {% if page.description %}
+          <p class="project-description">{{ page.description }}</p>
+        {% endif %}
+        
+        {% if page.contributions %}
+          <p><strong>My Contributions:</strong> {{ page.contributions }}</p>
+        {% endif %}
+
+        {% if page.tools %}
+          <p><strong>Engine/Tools:</strong> {{ page.tools }}</p>
+        {% endif %}
+        
+        {% if page.team_size %}
+          <p><strong>Team Size:</strong> {{ page.team_size }}</p>
+        {% endif %}
+        
+        {% if page.duration %}
+          <p><strong>Duration:</strong> {{ page.duration }}</p>
+        {% endif %}
+
+        {% if page.platforms %}
+          <div class="project-tags">
+          <p><strong>Platforms:</strong></p>
+            {% for platform in page.platforms %}
+              <span class="project-tag">{{ platform }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+    </div>
+</div>
+
+{{ content }}

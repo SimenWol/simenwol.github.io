@@ -144,6 +144,34 @@ Outside of programming, I enjoy playing games, exploring music and films, spendi
 </div>
 
 <br>
+# 💼 Professional Experience
+
+<div class="project-list">
+  {% assign sorted_experiences = site.experiences | sort: "date" | reverse %}
+  {% for experience in sorted_experiences %}
+    <div class="project-card">
+      {% if experience.image %}
+        <a href="{{ experience.url }}" class="project-image-link">
+          <img src="{{ experience.image }}" alt="Preview of {{ experience.title }}">
+        </a>
+      {% endif %}
+
+      {% if experience.description %}
+        <h2>{{ experience.description }}</h2>
+      {% endif %}
+      <h2>
+        <a href="{{ experience.url }}" class="project-title-link">{{ experience.title }}</a>
+      </h2>
+
+      <p><strong>Date:</strong> {{ experience.duration }}</p>
+
+      <p><a href="{{ experience.url }}" class="read-more-link">Read more →</a></p>
+
+    </div>
+  {% endfor %}
+</div>
+
+<br>
 # 🧩 Other Projects
 
 <div class="project-list">

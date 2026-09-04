@@ -20,6 +20,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:name/
+  experiences:
+    output: true
+    permalink: /experience/:name/
 
 theme: jekyll-theme-minimal
 plugins:
