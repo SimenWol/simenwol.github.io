@@ -45,7 +45,7 @@ Below I will go over some of these in more detail:
 
 Halfway through pre-production _(about 8 weeks into the project)_, I took over the role of programming lead. Since then, I've been guiding technical development and team coordination, which includes:
 
-- Led and coordinated a team of 7 programmers, organizing tasks, resolving blockers, and ensuring consistent progress across gameplay, systems, and tool development.
+- Led and coordinated a team of 7 programmers, organizing tasks, resolving blockers, and coordinating development across gameplay, systems, and tools to keep the team on schedule for release.
 - Defined and maintained coding standards and workflow practices to ensure consistent architecture and maintainable Unreal C++ code across the programming team.
 - Maintained alignment between programmers, designers, artists, and production through frequent check-ins and cross-discipline meetings.
 - Resolved communication issues within the team through direct conversations and mediation to maintain a productive and positive development environment.
@@ -61,13 +61,13 @@ During the later stages of the project, I assisted with preparing for the game's
 
 Together with other leads and our producer, we established release milestones and defined which features each release would ship with. I then helped ensure that these deadlines were met by coordinating with the programming team and monitoring development progress.
 
-For marketing, our team collaborated with an external marketing student. I acted as the main point of contact between the development team and the marketing collaborator. While they led the creative side of marketing (such as social media posts, marketing materials, and copywriting), I was responsible for coordinating communication, ensuring marketing tasks were properly delegated within the team, and making sure deadliens for marketing assets were met.
+For marketing, our team collaborated with an external marketing student. I acted as the main point of contact between the development team and the marketing collaborator. While they led the creative side of marketing (such as social media posts, marketing materials, and copywriting), I was responsible for coordinating communication, ensuring marketing tasks were properly delegated within the team, and making sure deadlines for marketing assets were met.
 
 ---
 
 ## QA, Profiling & Performance Standards
 
-During the later stages of the project, I took the role of 'QA manager' upon me.
+During the later stages of the project, I took on responsibility for QA.
 
 This meant I spent a lot of time prioritizing, validating, tracking, and fixing bugs in the project. As well as profiling the game to identify any bottlenecks and areas that could be improved.
 
@@ -79,7 +79,7 @@ Early in the project, I helped establish quality standards, performance targets,
 
 While I had less time than usual for programming due to my lead work, I still worked on a few systems throughout the project.
 
-Early on in the project, I created some early gameplay prototypes and some small unreal engine C++ components to speed up development/prototyping:
+Early on in the project, I created some early gameplay prototypes and some small Unreal Engine C++ components to speed up development/prototyping:
 
 - An early version of the attachable component, where if an object had this component, it would get stuck to the vacuum's nozzle rather than get sucked up completely:
 
@@ -96,14 +96,14 @@ The second being a C++ component that made it easy for an actor to move towards 
 <iframe style="width:100%; max-width:800px; aspect-ratio:16/9;" src="https://www.youtube.com/embed/PeGDKzLQgVk?si=shnWwIGCN_Uz8NzC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
 
-- Later on in the project, I also worked on a pulley system, which was later scrapped due to a change in direction of the gameplay, with a heavier focus on combat rather than level traversal.
+- Later on in the project, I developed a moduoar a pulley system for an earlier traversal-focused section. The system was later discontinued when the game's design shifted toward combat.
 
-The system was made fully in C++, and worked as followed:
+The system was made fully in C++, and worked as follows:
 
 - You can place turning points, and a rope will automatically be generated between these points (as well as the endpoints when you add them).
-- The endpoints are detached from the system and can be swapped out, making it trivial to add new endpoints as the system was modular. At the time of the system being scrapped, there were currently two variants:
-  - Suckable endpoint - if you suck this part with your vacuum, it'll attach to the nozzle, and then you can walk back to pull, and certain things happen (based on how the pulley is configured).
-  - Platform endpoint - Platform can move if the player 'pulls' on the pulley via the suckable point on the other end of the pulley upon which the platform will move towards the next turning point, and can be locked after moving a certain distance.
+- The endpoints are detached from the system and can be swapped out, making it trivial to add new endpoints as the system was modular. At the time of the system being discontinued, there were currently two variants:
+  - `Suckable endpoint` - if you suck this part with your vacuum, it'll attach to the nozzle, and then you can walk back to pull, and certain things happen (based on how the pulley is configured).
+  - `Platform endpoint` - The platform can move if the player 'pulls' on the pulley via the suckable point on the other end of the pulley upon which the platform will move towards the next turning point, and can be locked after moving a certain distance.
 
 The first video shows how this system could be configured / placed down by a designer and an early version of how it worked in-game.
 
