@@ -54,32 +54,104 @@ I implement two main UI components:
 
 ### Text Widgets
 
+![Text Widgets located in the game world](../../assets/images/Y2C/TextWidgetExample.png)
+
 The Text Widget system loads font files into a texture atlas using `stb_truetype`. When a text widget is created, the provided text is used to construct a mesh from the relevant glyphs, with each character represented by its own quad.
 
 Text can also be updated dynamically at runtime. To make the system easier to use, I exposed functionality both directly through the component and through the UI system, allowing developers to update text without needing direct access to the component itself.
 
-I also added helper functionality for creating commonly used text entities, reducing the amount of boilerplate required when creating UI.
+I also added helper functions such as `CreateTextEntity()` after noticing that text entities were frequently being constructed with the same configuration. This reduced boilerplate for common use cases while still allowing developers to access the underlying component when more control was required.
 
-<!--```cpp
-/// <summary>
-/// Function to create a basic textwidget entity.
-/// </summary>
-/// <param name="entTranslation">Entity's main translation.</param>
-/// <param name="entScale">Entity's main scale.</param>
-/// <param name="entRot">Entity's main rotation.</param>
-/// <param name="fontP">A pointer to the FontData to be used by the textwidget.</param>
-/// <param name="text">Text to be displayed. for offset, scale or spacing, call SetText through the system.</param>
-/// <param name="textID">The text ID used to identify this textwidget. Defaults to -1</param>
-/// <param name="castShadow">Whether or not the textwidget should cast shadows on other objects. Defaults to false</param>
-/// <returns>The newly created TextWidget entity.</returns>
-static entt::entity CreateTextEntity(glm::vec3 entTranslation,
-                                     glm::vec3 entScale,
-                                     glm::vec3 entRotation,
-                                     std::shared_ptr<FontData> fontP,
-                                     std::string text = "",
-                                     const int textID = -1,
-                                     bool castShadow = false);
-```-->
+<details class="code-example">
+<summary>View <code>TextWidget::SetText()</code> implementation snippet</summary>
+<div markdown="1">
+
+```cpp
+void TextWidget::SetText(std::string text, vec3 startPos, float scale, vec2 spacing)
+{
+    Empty();
+    hasUpdated = true;
+
+    if (!font->info.data)
+    {
+        Log::Error("Font data is empty or corrupted.");
+        return;
+    }
+
+    float computeScale = stbtt_ScaleForPixelHeight(&font->info, scale);
+
+    ...
+
+    for (char c : text)
+    {
+        ...
+
+        int advance, leftBearing;
+        stbtt_GetCodepointHMetrics(&font->info, c, &advance, &leftBearing);
+
+        ...
+
+        glm::vec4 uv = font->charUVs[c];
+
+        AddQuad(
+            glm::vec3(xCursor + (leftBearing * computeScale),
+                       yCursor - y1 * computeScale,
+                       startPos.z),
+            glm::vec2(glyphWidth, glyphHeight),
+            glm::vec2(uv.x, uv.y),
+            glm::vec2(uv.z, uv.w));
+
+        xCursor += (advance * computeScale) + spacing.x;
+    }
+}
+```
+
+</div></details>
+
+<details class="code-example">
+<summary>View <code>CreateFontTexture()</code> implementation snippet</summary>
+<div markdown="1">
+
+```cpp
+Texture FontData::CreateFontTexture(FileIO::Directory directory,
+                                    std::string filePath,
+                                    float fontSize,
+                                    int textureWidth,
+                                    int textureHeight)
+{
+    ...
+
+    // Loop through all basic ASCII printable characters and render the characters into a bitmap
+    for (char c = 32; c < 127; ++c)
+    {
+        int w, h, xoff, yoff;
+        unsigned char* glyphBitmap = stbtt_GetCodepointBitmap(&info, 0, scale, c, &w, &h, &xoff, &yoff);
+
+        ...
+
+        // Copy glyph into texture atlas
+        for (int row = 0; row < h; ++row)
+        {
+            for (int col = 0; col < w; ++col)
+            {
+                ...
+                bitmap[index + 3] = glyphBitmap[row * w + col];
+            }
+        }
+
+        ...
+
+        charUVs[c] = glm::vec4(minX, minY, maxX, maxY);
+
+        xOffset += w + 2;
+        stbtt_FreeBitmap(glyphBitmap, nullptr);
+    }
+
+    ...
+}
+```
+
+</div></details>
 
 ### Button Widgets
 
