@@ -54,9 +54,9 @@ I implement two main UI components:
 
 ### Text Widgets
 
-![Text Widgets located in the game world](../../assets/images/Y2C/TextWidgetExample.png)
+The Text Widget system loads font files into a texture atlas using `stb_truetype`. When a text widget is created, the provided text is used to construct a mesh from the relevant glyphs, with each character represented by its own quad. The resulting text exists in world space rather than being rendered as a traditional screen-space UI. This means it can be positioned and transformed like any other entity in the scene.
 
-The Text Widget system loads font files into a texture atlas using `stb_truetype`. When a text widget is created, the provided text is used to construct a mesh from the relevant glyphs, with each character represented by its own quad.
+![Text Widgets located in the game world](../../assets/images/Y2C/TextWidgetExample.png)
 
 Text can also be updated dynamically at runtime. To make the system easier to use, I exposed functionality both directly through the component and through the UI system, allowing developers to update text without needing direct access to the component itself.
 
