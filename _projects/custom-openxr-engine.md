@@ -157,6 +157,8 @@ Texture FontData::CreateFontTexture(FileIO::Directory directory,
 
 Buttons presented a slightly different design challenge. We wanted the engine to support conventional menu buttons, while also allowing developers to create their own interactions. For example, pulling a chain, shooting a target, or pressing a physical button.
 
+![Custom Buttons located in the game world](../../assets/images/Y2C/CustomButtonExample.gif)
+
 To support this, I introduced a `ButtonType` enum that determines how a button is triggered. The initial implementation contained three types:
 - `disabled` - the button cannot be triggered.
 - `ontouch` - the button is automatically triggered when an entity with a `PressButton` component enters its trigger area.
